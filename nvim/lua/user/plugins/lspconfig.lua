@@ -47,9 +47,9 @@ vim.keymap.set('n', '<leader>rn', '<cmd>lua vim.lsp.buf.rename()<CR>')
 
 -- Diagnostic configuration
 vim.diagnostic.config({
-    virutal_text = false,
+    virtual_text = false,
     float = {
-      source = false
+      source = true,
     }
 })
 
