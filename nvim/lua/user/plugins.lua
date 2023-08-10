@@ -91,8 +91,7 @@ use({
 use({
   'karb94/neoscroll.nvim',
   config = function()
-    -- require('user.plugins.neoscroll')
-    require('neoscroll').setup()
+    require('user.plugins.neoscroll')
   end,
 })
 
