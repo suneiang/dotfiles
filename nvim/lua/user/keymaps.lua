@@ -4,6 +4,9 @@ vim.g.maplocalleader = ' '
 vim.keymap.set('n', '<leader>k', ':nohlsearch<CR>')
 vim.keymap.set('n', '<leader>Q', ':bufdo bdelete<CR>')
 
+-- lazygit
+vim.keymap.set('n', '<leader>K', ':LazyGit<CR>') -- lazygit
+
 -- Allow gf to open non-existent files
 vim.keymap.set('', 'gf', ':edit <cfile><CR>')
 
