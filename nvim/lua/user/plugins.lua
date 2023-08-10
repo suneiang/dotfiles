@@ -252,6 +252,18 @@ use({
   end,
 })
 
+-- Auto closing tag
+use({ -- autoclose and autorename tags
+  "windwp/nvim-ts-autotag",
+  config = function()
+    require("nvim-treesitter.configs").setup({
+      autotag = {
+        enable = true,
+      },
+    })
+  end,
+})
+
 -- Language Server Protocol.
 use({
   'neovim/nvim-lspconfig',
