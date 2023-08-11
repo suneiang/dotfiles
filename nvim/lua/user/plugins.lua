@@ -59,6 +59,7 @@ use('farmergreg/vim-lastplace')
 use('tpope/vim-commentary')
 use('tpope/vim-repeat')
 use('tpope/vim-surround')
+use("inkarkat/vim-ReplaceWithRegister")
 use('tpope/vim-eunuch') -- Adds :Rename, :SudoWrite
 use('tpope/vim-unimpaired') -- Adds [b and other handy mappings
 use('tpope/vim-sleuth') -- Indent autodetection with editorconfig support
