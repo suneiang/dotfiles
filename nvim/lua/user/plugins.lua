@@ -139,6 +139,13 @@ use({
   end,
 })
 
+use({
+  "mbbill/undotree",
+  config = function()
+      vim.keymap.set("n", "<leader>u", "<cmd>UndotreeToggle<CR>", { desc = "Undotree Toggle" })
+  end,
+})
+
 -- Fuzzy finder
 use({
   'nvim-telescope/telescope.nvim',
